@@ -89,8 +89,8 @@ test: # runs all available tests
 
 .PHONY: docker.build
 docker.build: # builds docker container
-	docker build -t ghcr.io/example/service:latest .
+	docker build -t example-service:latest .
 
 .PHONY: docker.run
 docker.run: # runs built container locally
-	docker run --rm -it -p 8080:8080 --name example-service ghcr.io/example/service:latest
+	docker run --rm -it -p 8080:8080 --name example-service example-service:latest

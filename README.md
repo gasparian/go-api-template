@@ -1,11 +1,13 @@
 # Go service template
 
 This repository contains a generic template for Go services.
+It aligns with the broader Go project template initiative.
 
 ## Getting Started
 
 ### Prerequisites
 
+- [Go](https://go.dev/doc/install)  
 - Docker  
 - [delve](https://github.com/go-delve/delve) for debugging  
 
@@ -48,3 +50,14 @@ For debug, use [this](./.vscode/launch.json) vs code config which runs `delve`.
 The application can be configured using environment variables, for example:  
 
 - `RUNTIME_ENVIRONMENT`: defines where app is running: `dev`, `staging` or `production`.
+
+### Deploy
+
+The `deploy/` folder is a placeholder for Kubernetes deployment assets such as Helm charts and environment manifests.
+
+### Docker
+
+The Dockerfile uses a multi-stage build: the first stage compiles a static Linux binary, and the final stage is `scratch` to keep the image minimal. This reduces attack surface and image size by shipping only the compiled server and config files.
+
+- Build image: `make docker.build`
+- Run image: `make docker.run`
