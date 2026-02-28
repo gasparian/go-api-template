@@ -1,0 +1,21 @@
+appName: example-service
+
+replicaCount: 1
+
+image:
+  repository: override
+  tag: override
+  pullPolicy: Always
+
+application:
+  port: 8080
+  healthcheck: "/ping"
+  readiness: "/ping"
+
+externalHostname:
+  enabled: false
+
+config:
+  useEnvVars: true
+
+resources: {}

@@ -1,0 +1,42 @@
+# Exclude the .git directory
+.git
+
+# Exclude Go binary files
+*.exe
+*.out
+*.o
+*.so
+
+# Exclude local Go dependencies and vendor directory if not needed
+vendor/
+bin/
+build/
+
+# Exclude logs, temp files, and cache
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+tmp/
+.cache/
+node_modules/
+
+# Exclude test outputs
+*.test
+*.prof
+*.cover
+
+# Exclude Dockerfile, .dockerignore, and related files that shouldn't be in the final image
+Dockerfile
+.dockerignore
+
+# Exclude IDE and editor configuration files
+.vscode/
+.idea/
+*.iml
+*.tmproj
+
+# Exclude any Go environment-related files
+.env

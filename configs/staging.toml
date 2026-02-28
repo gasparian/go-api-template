@@ -1,0 +1,15 @@
+[application]
+version = "0.0.1"
+name = "example-service"
+
+[server]
+addr = ":8080"
+timeout = 10 
+
+[logging]
+level = "info"
+
+[cors]
+allowed_origins = ["https://example.com", "https://*.example.com", "http://localhost", "http://localhost:*"]
+allowed_methods = ["GET", "POST", "OPTIONS"]
+allow_credentials = true
