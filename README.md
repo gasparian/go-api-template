@@ -1,14 +1,13 @@
 # Go service template
 
 This repository contains a generic template for Go services.
-It aligns with the broader Go project template initiative.
 
 ## Getting Started
 
 ### Prerequisites
 
 - [Go](https://go.dev/doc/install)  
-- Docker  
+- [Docker](https://docs.docker.com/engine/install/)  
 - [delve](https://github.com/go-delve/delve) for debugging  
 
 ### Setup
