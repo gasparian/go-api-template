@@ -1,4 +1,4 @@
-module github.com/gasparian/go-project-template
+module github.com/gasparian/go-api-template
 
 go 1.26.0
 

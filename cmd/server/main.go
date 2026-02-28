@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	cfg "github.com/gasparian/go-project-template/internal/config"
-	"github.com/gasparian/go-project-template/internal/server"
-	"github.com/gasparian/go-project-template/internal/storage_driver"
+	cfg "github.com/gasparian/go-api-template/internal/config"
+	"github.com/gasparian/go-api-template/internal/server"
+	"github.com/gasparian/go-api-template/internal/storage_driver"
 )
 
 var (

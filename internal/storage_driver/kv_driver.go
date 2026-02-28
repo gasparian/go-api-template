@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/gasparian/go-project-template/pkg/storage"
+	"github.com/gasparian/go-api-template/pkg/storage"
 )
 
 var (

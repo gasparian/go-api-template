@@ -12,8 +12,8 @@ import (
 	"github.com/rs/cors"
 	"go.uber.org/zap"
 
-	cfg "github.com/gasparian/go-project-template/internal/config"
-	strg "github.com/gasparian/go-project-template/pkg/storage"
+	cfg "github.com/gasparian/go-api-template/internal/config"
+	strg "github.com/gasparian/go-api-template/pkg/storage"
 )
 
 const visitorCookieName = "visitor_id"

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gasparian/go-project-template/pkg/storage"
+	"github.com/gasparian/go-api-template/pkg/storage"
 )
 
 // TestNewKVDriver verifies that a new KVDriver is initialized correctly.

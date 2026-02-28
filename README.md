@@ -24,6 +24,7 @@ This repository contains a generic template for Go services.
     ```sh
     ./bin/server
     ```  
+    or `make run` for development, without the need to build.  
 
 5. Run some test queries:  
     ```sh
