@@ -1,4 +1,4 @@
-# Go service template
+# Go api template
 
 This repository contains a generic template for Go services.
 
